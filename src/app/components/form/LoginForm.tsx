@@ -10,7 +10,7 @@ import { useLoginMutation } from "@/app/redux/features/auth/auth.api";
 import { setUser } from "@/app/redux/features/auth/auth.slice";
 import { FieldValues } from "react-hook-form";
 
-export default function Login() {
+export default function LoginForm() {
   const searchParams = useSearchParams();
   const redirectUrl = searchParams.get("redirect");
   const dispatch = useAppDispatch();
@@ -57,7 +57,7 @@ export default function Login() {
         <div className="flex flex-col gap-4">
           <div className="text-center">
             <h2 className="text-2xl font-bold tracking-tight text-gray-900">Welcome Back</h2>
-            <p className="mt-1 text-sm text-muted-foreground">Please sign in to your account</p>
+            <p className="mt-1 text-sm text-muted-foreground">Please Login to your account</p>
           </div>
 
           {errorMessage && (

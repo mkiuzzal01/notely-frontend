@@ -2,7 +2,7 @@
 
 import { useState } from "react";
 import { useRouter } from "next/navigation";
-import { User, Mail, Lock, Phone, MapPin, Loader2 } from "lucide-react";
+import { User, Mail, Lock, Loader2 } from "lucide-react";
 import AppForm from "@/app/components/form/AppForm";
 import TextInput from "@/app/components/form/inputs/TextInput";
 import { useAppDispatch } from "@/app/redux/hooks/global.hooks";

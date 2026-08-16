@@ -8,7 +8,7 @@ export type TUser = {
   exp?: number;
   email?: string;
   name?: string;
-  [key: string]: any;
+  [key: string]: unknown;
 };
 
 type TAuthState = {
